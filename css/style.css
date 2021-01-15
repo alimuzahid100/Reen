@@ -1,0 +1,469 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a, a{
+	text-decoration: none;
+}
+
+/******************************
+**	Reen Css code start      **
+*******************************/
+
+.header-section{
+	width: 100%;
+}
+
+/******************************
+**  Top-menu Css code start  **
+*******************************/
+.navbar-wrapper {
+	width: 100;
+	background-color: #fff;
+	opacity: .8;
+	margin-top:0;
+	position: relative;
+	z-index: 15;
+  
+}
+
+.header-section .top-menu{
+	width: 100%;
+	background-color: #f5f7fa;
+	padding: 15px 0px;
+}
+
+.header-section .top-menu .info-inner{
+	width: 100%;
+}
+
+.header-section .top-menu .info-inner ul{
+	padding: 0;
+	margin:0;
+	display: block;
+}
+
+.header-section .top-menu .info-inner ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.header-section .top-menu .info-inner ul li a{
+	margin-right: 15px;
+	color: #506a85;
+	font-weight: 600;
+}
+
+.header-section .top-menu .info-inner ul li a:hover{
+	color: #00bc9c;
+}
+
+.header-section .top-menu .info-inner ul li a i{
+	margin-right: 5px;
+}
+
+.header-section .top-menu .social-menu{
+	padding: 0;
+	margin:0;
+	display: block;
+	text-align: right;
+}
+
+.header-section .top-menu .social-menu li{
+	list-style: none;
+	display: inline-block;
+}
+
+.header-section .top-menu .social-menu li a{
+	margin-left: 15px;
+	color: #506a85;
+}
+
+.header-section .top-menu .social-menu li a:hover{
+	color: #00bc9c;
+}
+
+/******************************
+**  Main-menu Css code start  **
+*******************************/
+
+.main-menu{
+	width: 100%;
+}
+
+.main-menu .navbar{
+	width: 100%;
+	background-color: transparent !important;
+	padding: 25px 0px;
+}
+
+.main-menu .navbar .navbar-light .navbar-nav .active>.nav-link{
+	color: #506a85;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+	color: #506a85;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin:0px 15px;
+	transition: .5s;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+	color: #00bc9c;
+}
+
+.main-menu .fa-search{
+	color: #506a85;
+	font-size: 14px;
+	font-weight: 700;
+}
+.main-menu .fa-search:hover, .main-menu .fa-search:focus{
+	color: #00bc9c;
+}
+
+/***********************************
+**  slider-section Css code start **
+************************************/
+
+.slider-section{
+	width: 100%;
+}
+
+.slider-section .carousel-caption{
+	bottom: 30%;
+}
+
+.slider-section .carousel-caption h2{
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.slider-section .carousel-caption p{
+	width: 69%;
+	font-size: 16px;
+	line-height: 26px;
+	color: #a3b1bf;
+	margin:0px auto 60px;
+}
+
+.slider-section .carousel-caption a{
+	background-color: #00bc9c;
+	padding: 10px 30px;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border-radius: 3px;
+	border: 1px solid #00bc9c;
+}
+
+.slider-section .carousel-caption a:hover{
+	background-color: transparent;
+	color: #00bc9c;
+}
+
+
+/***********************************
+**  slider-section Css code start **
+************************************/
+
+.who-we{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.who-we .title{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.who-we .title h2{
+	font-size: 35px;
+	font-weight: 600;
+	color: #506a85;
+	margin-bottom: 10px;
+}
+
+.who-we .title p{
+	width: 50%;
+	margin: 0px auto;
+	font-size: 16px;
+	line-height: 26px;
+	color: #73879c;
+}
+
+.who-we .media{
+	padding: 30px 0px 0px;
+}
+
+.who-we .media-body{
+	padding: 0px 10px;
+}
+
+.who-we .media-body h5{
+	font-size: 20px;
+	font-weight: 600;
+	color: #506a85;
+	margin-bottom: 15px;
+}
+
+.who-we .media-body p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #73879c;
+}
+
+/***********************************
+**  porfolio Css code start **
+************************************/
+
+.portfolio{
+	width: 100%;
+	padding: 80px 0px;
+	background-color: #f2f5f7;
+}
+
+.portfolio .title{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.portfolio .title h2{
+	font-size: 35px;
+	font-weight: 600;
+	color: #506a85;
+	margin-bottom: 20px;
+}
+
+.portfolio .title p{
+	font-size: 16px;
+	line-height: 26px;
+	color: #73879c;
+}
+
+.portfolio .card{
+	text-align: center;
+}
+
+.portfolio .card h5{
+	font-size: 20px;
+	font-weight: 600;
+	color: #506a85;
+	margin-bottom: 15px;
+}
+
+.portfolio .card p{
+	font-size: 14px;
+	color: #73879c;
+}
+
+.portfolio .owl-carousel{
+	width: 100%;
+	padding: 60px 0px 0px;
+}
+
+.portfolio .owl-theme .owl-nav.disabled+.owl-dots {
+	margin-top: 30px;
+}
+
+
+/***********************************
+**  Get-intouch Css code start **
+************************************/
+
+.get-intouch{
+	width: 100%;
+}
+
+.get-intouch .title{
+	width: 100%;
+	text-align: center;
+	padding: 80px 0px;
+}
+
+.get-intouch .title h2{
+	font-size: 35px;
+	font-weight: 600;
+	color: #506a85;
+	margin-bottom: 25px;
+}
+
+.get-intouch .title p{
+	width: 53%;
+	font-size: 16px;
+	line-height: 26px;
+	color: #73879c;
+	margin:0px auto 50px;
+}
+
+.get-intouch .title a{
+	background-color: #00bc9c;
+	padding: 10px 30px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border-radius: 3px;
+	border: 1px solid #00bc9c;
+}
+
+.get-intouch .title a:hover{
+	background-color: transparent;
+	color: #00bc9c;
+	text-decoration: none;
+}
+
+/***********************************
+**  footer-section Css code start **
+************************************/
+
+.footer-section{
+	width: 100%;
+}
+
+.footer-section .top-footer{
+	width: 100%;
+	background-color: #2f4052;
+	padding: 80px 0px;
+}
+
+.footer-section .top-footer .inner-widget{
+	width: 100%;
+	padding: 0px;
+}
+
+.footer-section .top-footer .inner-widget h4{
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.footer-section .top-footer .inner-widget img{
+	margin-bottom: 20px;
+}
+
+.footer-section .top-footer .inner-widget p {
+	font-size: 14px;
+	line-height: 24px;
+	color: #a3b1bf;
+}
+
+.footer-section .top-footer .inner-widget a{
+	color: #a3b1bf;
+}
+
+.footer-section .top-footer .inner-widget a:hover{
+	color: #fff;
+}
+
+.footer-section .top-footer .inner-widget a i{
+	margin-left: 10px;
+
+}
+
+.footer-section .top-footer .mb-4, .my-4 {
+	margin-bottom: 0.5rem!important;
+	padding-right: 0px;
+	padding-left: 10px;
+}
+
+.footer-section .top-footer .card {
+	border: none;
+	border-radius: 0;
+}
+
+.footer-section .top-footer .inner-widget .card img{
+	margin-bottom: 0;
+}
+
+.footer-section .top-footer .inner-widget .card-img, .card-img-top {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.footer-section .top-footer .inner-widget p .fa {
+	margin-right: 10px;
+}
+
+.footer-section .top-footer .footer-form{
+	width: 100%;
+	position: relative;
+}
+
+.footer-section .top-footer .footer-form{
+	width: 100%;
+	position: relative;
+}
+
+.footer-section .top-footer .form-control{
+	height: auto;
+	padding: 11px 4px;
+	background-color: #4e5c6c;
+	border: 1px solid #4e5c6c;
+	color: #828e99;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+.footer-section .top-footer .btn-primary{
+	position: absolute;
+	top: 4px;
+	right: 2px;
+	background-color: #00bc9c;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 15px;
+	border: 1px solid #00bc9c;
+}
+
+/***********************************
+**   bottom-footer Css code start **
+************************************/
+
+.footer-section .bottom-footer{
+	width: 100%;
+	padding: 20px 0px 0px;
+	background-color: #283645;
+}
+.footer-section .bottom-footer p{
+	color: #616f7d;
+	font-size: 14px;
+}
+
+.footer-section .bottom-footer .inner-menu{
+	display: block;
+}
+
+.footer-section .bottom-footer .inner-menu li{
+	list-style: none;
+	display: inline-block;
+	color: #616f7d;
+	margin-right: 10px;
+}
+
+.footer-section .bottom-footer .inner-menu li i{
+	font-size: 5px;
+	vertical-align: middle;
+}

@@ -1,0 +1,156 @@
+@media (max-width:1199px){
+    .who-we .title p {
+        width: 59%;
+    }
+
+    .get-intouch .title p{
+        width: 64%;
+    }
+}
+
+@media (max-width:991px){
+    .pad{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .slider-section .carousel-caption{
+        top:10%;
+    }
+
+    .slider-section .carousel-caption h2{
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+
+    .slider-section .carousel-caption p{
+        width: 92%;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom:25px;
+    }
+
+    .slider-section .carousel-caption a{
+        padding: 6px 20px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .who-we .title p {
+        text-align: justify;
+    }
+
+    .bottom-footer{
+        text-align: center;
+    }
+}
+
+@media (max-width:767px){
+    /* media query code start */
+    .pad{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .header-section .top-menu .social-menu{
+        margin: 13px 0px 0px;
+    }
+
+    .who-we .title h2 {
+        width: 85%;
+        margin: 0 auto 10px;
+    }
+
+    .who-we .media{
+        padding: 30px 0px 0px;
+        display: flow-root;
+        text-align: center;
+    } 
+
+    .who-we .media-body p {
+        text-align: justify;
+        width: 76%;
+        margin: 0 auto;
+    }
+
+    .portfolio .title p {
+        width: 78%;
+        margin:0px auto;
+    }
+
+    .get-intouch .title p {
+        text-align: justify;
+    }
+    /* media query code end */
+}
+
+@media (max-width:720px){
+    .slider-section .carousel-caption h2 {
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
+
+    .slider-section .carousel-caption p {
+        text-align: justify;
+        margin-bottom: 12px;
+    }
+
+}
+
+@media (max-width:575px){
+    /* media query code start */
+
+    .header-section .top-menu{
+        text-align: center;
+    }
+
+    .header-section .top-menu .social-menu{
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .main-menu .navbar-light .navbar-brand {
+        margin-left: 20px;
+    }
+
+    .main-menu .navbar-light .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    .who-we .title h2 {
+        width: 79%;
+    }
+
+    .portfolio .title p {
+        width: 73%;
+    }
+    /* media query code end */
+}
+
+@media (max-width:428px){
+
+    .portfolio .title h2 {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .portfolio .title p {
+        width: 88%;
+    }
+
+    .get-intouch .title h2{
+        width: 69%;
+        margin:0 auto;
+
+    }
+}
+
+@media (max-width:344px){
+    .who-we .title h2 {
+        width: 86%;
+        margin: 0 auto 10px;
+    }
+
+    .portfolio .title p {
+        width: 100%;
+    }
+}
